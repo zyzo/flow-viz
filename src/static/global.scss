@@ -1,5 +1,18 @@
-$background-color: rgba(158, 138, 138, 0.55);
+$background-color: rgb(26, 41, 68);
+@font-face {
+  font-family: 'Roboto';
+  src: url('./Roboto/Roboto-Regular.ttf') format('truetype');
+}
 
 body {
+  font-family: Roboto, sans-serif;
+  margin: 0;
+}
+
+html, body, #root, canvas {
+  height: 100%;
+}
+
+#root {
   background-color: $background-color;
 }

@@ -1,13 +1,20 @@
 import React from 'react'
+import { AppBar } from 'material-ui'
+
+import SVG from './SVG.js'
 
 import '../static/global.scss'
 
 const App = React.createClass({
   render() {
     return (
-      <canvas onClick={() => console.log('haha')}>
-
-      </canvas>
+      <div>
+        <AppBar
+          title="Flow Visualization"
+          iconClassNameRight="muidocs-icon-navigation-expand-more"
+        />
+        <SVG />
+      </div>
     )
   }
 })

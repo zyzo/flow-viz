@@ -1,6 +1,6 @@
 # Flow Graph Visualization
 
-### D3 Graph Inspiration
+### Inspiration
 
 * http://emptypipes.org/2015/02/15/selectable-force-directed-graph/
 * http://vowl.visualdataweb.org/webvowl/
