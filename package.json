@@ -44,6 +44,7 @@
     "babel-preset-react": "^6.3.13",
     "babel-runtime": "5.8.24",
     "d3": "^4.1.1",
+    "immutable": "^3.8.1",
     "material-ui": "^0.15.2",
     "react-dom": "^15.1.0",
     "react-faux-dom": "^2.7.0",
