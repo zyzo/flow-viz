@@ -1,6 +1,6 @@
 import React from 'react'
 import { AppBar, Drawer, MenuItem } from 'material-ui'
-
+import NavigateBefore from 'material-ui/svg-icons/image/navigate-before'
 import SVG from './SVG.js'
 
 import '../static/global.scss'
@@ -26,6 +26,11 @@ const App = React.createClass({
           />
           <MenuItem>Graph</MenuItem>
           <MenuItem>Code</MenuItem>
+          <MenuItem
+            style={{textAlign: 'center'}}
+            onClick={() => this.setState({drawerOpen: false})}>
+            <NavigateBefore/>
+          </MenuItem>
         </Drawer>
 
         <SVG />

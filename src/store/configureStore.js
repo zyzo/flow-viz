@@ -13,25 +13,28 @@ const defaultInitialState = immutable.fromJS(
     nodes: {
       1: {
         x: 123,
-        y: 456
+        y: 456,
+        id: 1
       },
       2: {
         x: 421,
-        y: 212
+        y: 212,
+        id: 2
       },
       3: {
         x: 12,
-        y: 700
+        y: 700,
+        id: 3
       }
     },
     edges: {
       0: {
-        source: 1,
-        target: 2
+        src: 1,
+        dst: 2
       },
       1: {
-        source: 2,
-        target: 3
+        src: 2,
+        dst: 3
       }
     }
   }
