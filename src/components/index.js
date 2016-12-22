@@ -13,8 +13,8 @@ const App = React.createClass({
   },
   render() {
     return (
-      <div>
-        <Drawer open={this.state.drawerOpen} containerClassName="drawer">
+      <div style={{ width: '100%', height: '100%' }}>
+        {/* <Drawer open={this.state.drawerOpen} containerClassName="drawer">
           <AppBar
             className="app-bar"
             title="Flow Viz"
@@ -31,8 +31,7 @@ const App = React.createClass({
             onClick={() => this.setState({drawerOpen: false})}>
             <NavigateBefore/>
           </MenuItem>
-        </Drawer>
-
+        </Drawer> */}
         <SVG />
       </div>
     )

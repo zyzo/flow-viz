@@ -11,20 +11,17 @@ const loggerMiddleware = createLogger({
 const defaultInitialState = immutable.fromJS(
   {
     nodes: {
-      1: {
+      0: {
         x: 123,
-        y: 456,
-        id: 1
+        y: 456
+      },
+      1: {
+        x: 421,
+        y: 212
       },
       2: {
-        x: 421,
-        y: 212,
-        id: 2
-      },
-      3: {
-        x: 12,
-        y: 700,
-        id: 3
+        x: 30,
+        y: 50
       }
     },
     edges: {
@@ -34,7 +31,7 @@ const defaultInitialState = immutable.fromJS(
       },
       1: {
         src: 2,
-        dst: 3
+        dst: 0
       }
     }
   }
